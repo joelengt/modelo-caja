@@ -1,0 +1,390 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.centrar {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+.Header-Main {
+  background: #ac7e5d;
+  background-image: url("../images/cover.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 9em;
+}
+.Header-Main__box {
+  text-align: center;
+}
+.Header-Main__Nav {
+  background: #800080;
+}
+.Header-Main__Nav .Nav__list {
+  text-align: center;
+}
+.Header-Main__Nav .Nav__item {
+  display: block;
+  list-style: none;
+}
+.Header-Main__Nav .Nav__link {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+}
+.Header-Main__Nav .Nav__link:hover {
+  background: #cd853f;
+  color: #fff;
+}
+.Header-Main__Autor {
+  display: block;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.Header-Main__Autor .Autor__img {
+  display: block;
+}
+.Header-Main__Autor .Autor__img img {
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+.Header-Main__Autor .Autor__Name {
+  display: block;
+  width: 330px;
+  border: 5px solid #fff;
+}
+.Header-Main__Autor .Autor__Name h1 {
+  font-size: 2.6em;
+  color: #fff;
+}
+.Header-Main__Autor h2 {
+  font-size: 2em;
+  color: #fff;
+}
+@media (min-width: 768px) {
+  .Header-Main__Nav .Nav__item {
+    display: inline-block;
+  }
+}
+.About-me {
+  background: #cd853f;
+}
+.About-me__box {
+  display: block;
+}
+.About-me__content {
+  background: #0ff;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.About-me__content h2 {
+  font-size: 2em;
+}
+.About-me__content p {
+  font-size: 1.2em;
+  padding: 15px;
+  text-align: left;
+}
+.About-me__Avatar {
+  background: #f00;
+}
+.About-me__Avatar .Avatar__img img {
+  max-width: 100%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+.About-me__Avatar h2 {
+  font-size: 1.7em;
+}
+@media (min-width: 768px) {
+  .About-me {
+    padding-top: 3em;
+    padding-bottom: 4em;
+  }
+  .About-me__box {
+    max-width: 900px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 1.5em;
+  }
+  .About-me__content {
+    display: inline-block;
+    width: 45%;
+  }
+  .About-me__content p {
+    width: 20em;
+  }
+  .About-me__Avatar {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+  }
+}
+.skill {
+  background: #00f;
+}
+.skill__box {
+  text-align: center;
+}
+.skill__col1 {
+  background: #ffa500;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  display: block;
+}
+.skill__col1 h2 {
+  font-size: 1.8em;
+  text-transform: uppercase;
+}
+.skill__col1 p {
+  padding: 15px;
+  text-align: left;
+}
+.skill__col2 {
+  background: #008000;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  display: block;
+}
+.skill__col2 h2 {
+  font-size: 1.8em;
+  text-transform: uppercase;
+}
+.skill__col2 p {
+  padding: 15px;
+  text-align: left;
+}
+@media (min-width: 768px) {
+  .skill__box {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .skill__col1 {
+    display: inline-block;
+    width: 45%;
+  }
+  .skill__col2 {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+  }
+}
+.espaciado {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.portafolio {
+  background: #800080;
+}
+.portafolio__box {
+  display: block;
+}
+.portafolio__gato {
+  display: block;
+  background: #ff0;
+}
+.portafolio__gato h2 {
+  text-align: center;
+  font-size: 1.7em;
+  text-transform: uppercase;
+}
+.portafolio__gato p {
+  padding: 15px;
+  font-size: 1.2em;
+}
+.portafolio__perro {
+  display: block;
+  background: #0ff;
+}
+.portafolio__perro h2 {
+  text-align: center;
+  font-size: 1.7em;
+  text-transform: uppercase;
+}
+.portafolio__perro p {
+  padding: 15px;
+  font-size: 1.2em;
+}
+.portafolio__raton {
+  display: block;
+  background: #f00;
+}
+.portafolio__raton h2 {
+  text-align: center;
+  font-size: 1.7em;
+  text-transform: uppercase;
+}
+.portafolio__raton p {
+  padding: 15px;
+  font-size: 1.2em;
+}
+@media (min-width: 768px) {
+  .portafolio__box {
+    max-width: 1200px;
+    text-align: center;
+    padding-top: 2em;
+  }
+  .portafolio__gato {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .portafolio__perro {
+    width: 30%;
+    display: inline-block;
+  }
+  .portafolio__raton {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+  }
+}
+.anuncio {
+  background: #cd853f;
+}
+.anuncio__box {
+  background: #d3d3d3;
+}
+.anuncio__c1 {
+  background: #ffa500;
+}
+.anuncio__c1 h2 {
+  font-size: 1.5em;
+  text-align: center;
+}
+.anuncio__c1 .c1__img {
+  text-align: center;
+}
+.anuncio__c1 .c1__img img {
+  max-width: 90%;
+}
+.anuncio__c1 p {
+  padding: 15px;
+}
+.anuncio__c2 {
+  background: #800080;
+  padding-bottom: 1em;
+}
+.anuncio__c2 h2 {
+  font-size: 1.5em;
+  text-align: center;
+}
+.anuncio__c2 .video {
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+  overflow: hidden;
+}
+.anuncio__c2 iframe,
+.anuncio__c2 object,
+.anuncio__c2 embed,
+.anuncio__c2 video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+.anuncio__c2 p {
+  padding: 15px;
+}
+.anuncio__c3 {
+  background: #008000;
+}
+.anuncio__c3 h2 {
+  font-size: 1.5em;
+  text-align: center;
+}
+.anuncio__c3 .c3__img {
+  text-align: center;
+}
+.anuncio__c3 .c3__img img {
+  max-width: 90%;
+}
+.anuncio__c3 p {
+  padding: 15px;
+}
+@media (min-width: 768px) {
+  .anuncio__box {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 2em;
+  }
+  .anuncio__c1 {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+  }
+  .anuncio__c2 {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+  }
+  .anuncio__c3 {
+    display: inline-block;
+    width: 90%;
+  }
+}
+@media (min-width: 1000px) {
+  .anuncio__box {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 2em;
+  }
+  .anuncio__c1 {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+  }
+  .anuncio__c2 {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+  }
+  .anuncio__c3 {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+  }
+}
+.valores__box {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+.valores__circle1 {
+  width: 100%;
+  background: #cd853f;
+}
+.valores__circle2 {
+  width: 100px;
+  height: 100px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #ff0;
+}
+.valores__circle3 {
+  width: 100px;
+  height: 100px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #0ff;
+}
+html {
+  font-family: 'Open Sans', 'Arial', sans-serif;
+}
+body {
+  background: #d3d3d3;
+}

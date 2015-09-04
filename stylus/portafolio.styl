@@ -1,0 +1,56 @@
+.espaciado
+	padding-top 2em
+	padding-bottom 2em
+.portafolio
+	background purple
+	&__box
+		display block
+	&__gato
+		display block
+		background yellow
+		h2
+			text-align center
+			font-size 1.7em
+			text-transform uppercase
+		p
+			padding 15px
+			font-size 1.2em
+	&__perro
+		display block
+		background aqua
+		h2
+			text-align center
+			font-size 1.7em
+			text-transform uppercase
+		p
+			padding 15px
+			font-size 1.2em
+	&__raton
+		display block
+		background red
+		h2
+			text-align center
+			font-size 1.7em
+			text-transform uppercase
+		p
+			padding 15px
+			font-size 1.2em
+			
+@media (min-width 768px)
+	.portafolio
+		&__box
+			max-width 1200px
+			text-align center
+			padding-top 2em
+		&__gato
+			width 30%
+			display inline-block
+			vertical-align top
+		&__perro
+			width 30%
+			display inline-block
+		&__raton
+			width 30%
+			display inline-block
+			vertical-align top
+			

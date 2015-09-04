@@ -1,0 +1,40 @@
+.About-me
+	background peru
+	&__box
+		display block
+	&__content
+		background aqua
+		padding-top 2em
+		padding-bottom 2em
+		h2
+			font-size 2em
+		p
+			font-size 1.2em
+			padding 15px
+			text-align left
+	&__Avatar
+		background red
+		.Avatar__img
+			img
+				max-width 100%
+				border-radius 50%
+		h2
+			font-size 1.7em
+@media (min-width 768px)
+	.About-me
+		padding-top 3em
+		padding-bottom 4em
+		&__box
+			max-width 900px
+			text-align center
+			margin 0 auto
+			padding-top 1.5em
+		&__content
+			display inline-block
+			width 45%
+			p
+				width 20em
+		&__Avatar
+			display inline-block
+			width 45%
+			vertical-align top

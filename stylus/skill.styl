@@ -1,0 +1,41 @@
+.skill
+	background blue
+	&__box
+		text-align center
+	&__col1
+		background orange
+		padding-top 2em
+		padding-bottom 2em
+		display block
+		h2
+			font-size 1.8em
+			text-transform uppercase
+		p
+			padding 15px
+			text-align left
+	&__col2
+		background green
+		padding-top 2em
+		padding-bottom 2em
+		display block
+		h2
+			font-size 1.8em
+			text-transform uppercase
+		p
+			padding 15px
+			text-align left
+
+@media (min-width 768px)
+	.skill
+		&__box
+			width 100%
+			// max-width 800px
+			text-align center
+			margin 0 auto
+		&__col1
+			display inline-block
+			width 45%
+		&__col2
+			display inline-block
+			width 45%
+			vertical-align top
